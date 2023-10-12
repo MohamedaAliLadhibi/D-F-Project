@@ -13,14 +13,15 @@
     top: 280px
 
 }
+
 #obstacle{
-    width: 30px;
-    height: 20px;
+    width: 4 0px;
+    height: 35px;
     background-color: crimson;
     position: relative;
     top: 250px;
     left: 670px;
-    animation: obstacle 4s infinite;
+    animation: obstacle 1.75s infinite linear;
 }
 @keyframes obstacle{
     0%{left:670px;}
