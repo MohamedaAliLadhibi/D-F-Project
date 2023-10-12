@@ -5,17 +5,22 @@
 #game{
     width: 700px;
     height: 400px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 183, 0);
+    margin-left: 400px;
+    margin-top: 100px;
+    background-color: black;
 }
 #stickman{
     width: 100px;
     position: relative;
-    top: 280px
-
+    top: 290px;
+}
+.animate{
+    animation: jump 500ms infinite ;
 }
 
 #obstacle{
-    width: 4 0px;
+    width: 40px;
     height: 35px;
     background-color: crimson;
     position: relative;
@@ -25,5 +30,13 @@
 }
 @keyframes obstacle{
     0%{left:670px;}
-    100%{left:-40px}
+    100%{left:-20px}
 }
+@keyframes jump{
+    0%{top: 250px;}
+    30%{top:100px;}
+    50%{top:100px}
+    100%{top: 280px}
+}
+
+
